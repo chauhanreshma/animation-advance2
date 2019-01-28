@@ -10,30 +10,32 @@ html,body{
 .maincontain {
 	height: 500px;
 	width: 500px;
-	background-image: url(../image/img8.jpg);
+	background-image: url(../image/pexels-photo-.jpeg);
 	background-size: 500px;
 	background-repeat: no-repeat;
 	border-radius: 50%;
 	position: absolute;
-	top: 0;
-	left: 0;
-	right: 0;
-	bottom: 0;
-	margin: auto;
+	left: 450px;
 	transform: translate(0,70px); 
-	box-shadow:0 0 40px 7px orange;
+	box-shadow:0 0 40px 7px lightgray;
 	animation-duration: 2s;
 	animation-name: animat;
 	animation-iteration-count:infinite;
 }
 @keyframes animat{
 	0%{
-			box-shadow:0 0 30px 7px orange;
+			box-shadow:0 0 30px 7px lightgray;
 
 	}
 	
 	100%{
-			box-shadow:0 0 30px 40px orange;
+			box-shadow:0 0 30px 40px lightgray;
 
 	}
+}
+
+.main {
+	height: 100%;
+	width: 100%;
+	background-color: gray;
 }
